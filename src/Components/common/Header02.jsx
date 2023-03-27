@@ -1,5 +1,5 @@
 import React from 'react';
-import Header02Nav from './Header02Nav/Header02Nav';
+import MobileNav from './MobileNav/MobileNav';
 
 const Header02 = () => {
     return (
@@ -86,7 +86,7 @@ const Header02 = () => {
                     </div>
                 </div>
             </header>
-            <Header02Nav />
+            <MobileNav />
         </>
     );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/plugins/menu/ma5-menu.css';
-import Header02Nav from './Header02Nav/Header02Nav';
+import MobileNav from './MobileNav/MobileNav';
 
 const Header = () => {
     // Hide header on scroll down
@@ -132,7 +132,7 @@ const Header = () => {
                 </div>
             </header>
 
-            <Header02Nav />
+            <MobileNav />
 
         </>
     );

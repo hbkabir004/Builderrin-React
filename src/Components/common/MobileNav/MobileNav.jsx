@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import React, { useEffect } from 'react';
-import './Header02Nav.css';
+import './MobileNav.css';
 
 const Header02Nav = () => {
     useEffect(() => {
@@ -36,7 +36,7 @@ const Header02Nav = () => {
                             <span class="submenu_opener"><i class="ion-arrow-right-b"></i></span>
                         </li>
                         <li class="menu-item menu-item-has-children">
-                            <a href="/">Service</a>
+                            <a href="/">Projects</a>
                             <ul class="sub-menu">
                                 <li class="menu-item"><a href="/project-1">Projects One</a></li>
                                 <li class="menu-item"><a href="/project-2">Projects Two</a></li>
@@ -47,7 +47,7 @@ const Header02Nav = () => {
                         <li class="menu-item menu-item-has-children">
                             <a href="/">Services</a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="/services-1">Service One</a></li>
+                                <li class="menu-item"><a href="/services">Service One</a></li>
                                 <li class="menu-item"><a href="/services-2">Service Two</a></li>
                                 <li class="menu-item"><a href="/service-details">Service Details</a></li>
                             </ul>
