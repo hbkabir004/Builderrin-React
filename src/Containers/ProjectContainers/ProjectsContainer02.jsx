@@ -1,6 +1,6 @@
 import Isotope from 'isotope-layout';
 import React, { useEffect, useState } from 'react';
-import ProjectCard01 from '../../Components/ProjectElements/ProjectCard01';
+import ProjectCard02 from '../../Components/ProjectElements/ProjectCard02';
 import Banner from '../Banner';
 
 const ProjectsContainer02 = () => {
@@ -124,7 +124,7 @@ const ProjectsContainer02 = () => {
                             <div class="grid grid-5">
 
                                 {
-                                    ProjectData02.map(data => <ProjectCard01
+                                    ProjectData02.map(data => <ProjectCard02
                                         key={data.id}
                                         data={data}
                                     />)

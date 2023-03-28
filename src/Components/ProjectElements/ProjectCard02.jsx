@@ -2,12 +2,12 @@ import React from 'react';
 import LazyLoad from 'react-lazyload';
 
 
-const ProjectCard01 = ({ data }) => {
+const ProjectCard02 = ({ data }) => {
     const { img, city, title, tag } = data;
     return (
         <div className={`element-item ${tag}`}>
             <div className="teambox">
-                <LazyLoad height={500} once>
+                <LazyLoad height={400} once>
                     <img src={img} alt="" />
                 </LazyLoad>
 
@@ -33,4 +33,4 @@ const ProjectCard01 = ({ data }) => {
     );
 };
 
-export default ProjectCard01;
+export default ProjectCard02;
