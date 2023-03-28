@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Builderrin - Construction React Application</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        
+        <link href="css/style.css" rel="stylesheet">        
+        
+    </head>
+    <body>
+        
+        <header class="navbar navbar-inverse" role="banner">
+          <div class="container">
+            <div class="navbar-header float-left d-inline-block">
+                <a href="#">
+                    <img style="width:100px;" src="img/logo.svg"/>  
+                </a>
+            </div>
+            
+            <nav class="float-right d-inline-block" role="navigation">
+                <ul class="nav navbar-right">
+                    <li>
+                        <a href="#masthead" class="bg-transparent px-3 py-0">Back to top</a>
+                    </li>
+                    <li>
+                        <a href="#credits" class="bg-transparent px-3 py-0">Credits</a>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+        </header>
+
+        <div class="container text-center">
+        <div id="masthead">  
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Builderrin</h1>
+                    <p class="lead">React JS App Documentation</p>
+                </div>
+                 
+              </div> 
+          </div><!-- /cont -->
+        </div>
+
+        <!-- Begin Body -->
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3" id="leftCol">
+                        <nav class="navbar sticky-top navbar-light bg-white side-nav">
+                            <div class="navbar-collapse">
+                                <ul class="nav flex-column py-3" id="sidebar">
+                                    <li><a href="#Info">Template Information</a></li>
+                                    <li><a href="#Install">Installation</a></li>
+                                    <!-- <li><a href="#html-structure">Folder Structure</a></li> -->
+                                    <li><a href="#newPage">Create Starter Page</a></li>
+                                    <li><a href="#switcher" style="background-color: #ffa903; color: #fff;">Theme Configuration</a></li>
+                                    <li><a href="#routing">Routing</a></li>
+                                    
+
+
+                                    <!-- <li><a href="#navigation">Navigation</a></li>
+                                    <li><a href="#bg">Backgrounds</a></li>
+                                    <li><a href="#slider">Slider</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#service">Service</a></li>
+                                    <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#contact">Contact</a></li> -->
+
+
+
+                                    
+                                    <li><a href="#fonts">Fonts & Icons</a></li>
+                                    <li><a href="#credits">Source & Credits</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>  
+                    <div class="col-md-9">
+                        
+                        <div class="py-3 pt-5" id="Info">
+                            <h2 class="mb-4">Template Information</h2>
+                                <h5>Description :</h5>
+                                <ul>
+                                    <li>Builderrin is a creative, elegant, modern, clean and Responsive React JS Application for construction, architecture or biulders Company based on Bootstrap. Compatible with Desktop, Laptop, tablet, mobile or any device. Builderrin is simple and clean design. All files are clearly organised. We believe it will be easy to use and edit them.</li>
+                                </ul>
+
+
+                                <h2>Featured App</h2>
+                              <ul>
+                                <li>Shop</li>
+                                <li>ShopCart</li>
+                                <li>ProjectPortfolio</li>
+                                <li>Services</li>
+                                <li>Contact</li>
+                                <li>Team</li>
+                                <li>FAQs</li>
+                                <li>Blogs</li>
+                              </ul>
+                              <h2>Key Feature</h2>
+                              <p>Builderrin-React contains increadible features listed below.</p>
+                              <ul>
+                                <li>Build with <strong>React 18.2.0</strong></li>
+                                <li>Modern Design</li>
+                                <li>Fully Responsive Design</li>
+                                <li>Styled Components</li>
+                                <li>Create React App Supported</li>
+                                <li><strong>Bootstrap 5</strong> compatible</li>
+                                <li>Multiple Layouts</li>
+                                <li>React Library Based components<strong> (Jquery compatible)</strong></li>
+                                <li>Easy to Customized with <strong>React-Bootstrap</strong> components</li>
+                                <li>Shop, Services, ProjectPortfolio, Team, Blog, Contact & many more apps.</li>
+                                <li>Home, ProjectsGallery, Shop, AboutUs, Services, Team, Blogs, 404, Coming Soon and many more pages.</li>
+                                <li>Clean Code</li>
+                                <li>Async Loading</li>
+                                <li>Code Spliting</li>
+                              </ul>
+                              <h2>Layout Features</h2>
+                              <ul>
+                                <li>Light & Dark Mode Supported</li>
+                                <li>Multiple Layouts supported</li>
+                              </ul>
+                              <h2>Dependancies</h2>
+                              <ul>
+                                <li>React</li>
+                                <li>React-Bootstrap</li>
+                                <li>React Router DOM</li>
+                                <li>React-jQuery</li>
+                                <li>React-Countup</li>
+                                <li>React-Lazyload</li>
+                                <li>React-Tabs</li>
+                                <li>React-Select2-Wrapper</li>
+                                <li>Swiper</li>
+                                <li>Isotope-Layout</li>
+
+                              </ul>
+                        </div>
+
+                         <!-- Installation -->
+                         <div class="py-3" id="Install">
+                            <h2 class="mb-4">Installation</h2>
+                            
+                                <p className='mb-5'>Welcome to React! React helps you build modern applications for the web, mobile, or desktop.</p>
+                                <p>For getting started an React application you needs two things as Prerequisites.</p>
+                                <h2>Prerequisites</h2>
+                                <br />
+                                <p>Before you begin, make sure your development environment includes Node and an npm package manager.</p>
+                                <h3>Node.js</h3>
+                                <br />
+                                <p className='mb-0'>Download latest version of node.js from nodejs.org.</p>
+                                <p className='mb-0'>Install Node.js using downloaded file</p>
+                                <p>To check your node version, run node -v in a terminal/console window.</p>
+                                <h3>Yarn package manager</h3>
+                                <br />
+                                <p>React CLI, and React apps depend on features and functionality provided by libraries that are available as yarn packages. To download and install yarn packages, you must have an yarn package manager. This Quick Start uses the yarn client command line interface, which is need install by using npm, npm default with nodejs. To install yarn, run <strong>npm install -g yarn</strong> To check that you have the yarn client installed, run yarn -v in a terminal/console window.</p>
+                                <p>For better understanding we suggest you to once go through official documentation of React from <strong className="text-primary">Reactjs.org</strong></p>
+                                <h2>Downloaded Files</h2>
+                                <br />
+                                <p>After extract the main zip file, go to Mrittik folder and you will get three separate project folder there. Use one which fits your needs.</p>
+                                <h2>Installation</h2>
+                                <br />
+                                <ul>
+                                    <li>For starter we need to setup node js, go to <strong>https://nodejs.org/en/download/</strong> & download appropriate version for your os.</li>
+                                    <li>After download setup <strong>nodejs</strong></li>
+                                    <li>Run <strong>npm install -g yarn</strong>, wait a bit</li>
+                                    <li>Run yarn install, wait a bit</li>
+                                    <li>Now run yarn start, it should open up <strong>http://localhost:3000</strong> on your browser</li>
+                                </ul>
+                                <p>
+                                    <strong>
+                                        "Make sure you are not running any other react project in local if so then use new generated port from terminal with label called app running at:
+                                    </strong>
+                                </p>
+                                <br>
+                                <br>
+                                <h4>Some Common solution if you do not run project successfully</h4>
+                                        <p>Use Latest Version of node.js</p>
+                                        <p>Remove node_module and package-lock.json and yarn-lock file and again do <strong>yarn install</strong> </p>
+                                        <p>You can again download theme from themeforst and then again run </p>
+                                        <p>Then also if you don't solve issue you can generate a ticket.</p>
+                                    </p>
+                                <p className='mt-35 mb-0'>Mrittik is developed using <strong>create-react-app</strong> configuration.</p>
+                                <p className="mb-0">you can find more about them visit:</p>
+                                <p className="mb-0">CRA: <a href="https://create-react-app.dev/">https://create-react-app.dev/</a></p>
+                                <br />
+                                <br />
+                                <h2>Build Application</h2>
+                                <br />
+                                
+                                <p className="mb-0">Build you application for host on server using below command:</p>
+                                <code>yarn build</code>
+                                
+                                <p style="margin-top: 20px;" className="mb-0">Wait a bit, it will Compile, optimize, minify and uglify all source files</p>
+                                <p className="mb-0">It will create one dist file in your theme folder. Make zip of dist folder. so here you are ready to upload your theme on server.</p>
+                                
+                        </div>
+                    
+
+
+                        <div class="py-3" id="newPage">
+                            <h2>New Page</h2>
+                                <h4>How to create new page</h4>
+                                <p>Here is the example on how to create your custom page and add it to the leftsidebar menu, breadcrumbs.</p>
+                                <div class="highlight box mb-3">
+    <h6>1. Create page component <span style="background-color: #ffa903; color: #fff;">src/containers/pages/MyPage.js</span></h6>
+    <pre><code>
+    import React from 'react';
+    import { Main } from '../styled';
+    
+    const MyPage = () => {
+        return (
+            &lt;Main&gt;
+            {/* Write Your JSX HERE */}
+            &lt;Main/&gt;
+        );
+    };
+    
+    export default MyPage;
+    </code></pre>
+                                </div>
+                            </div>
+                            
+
+<div class="highlight box mb-3">
+    <h6>2. Update the routes <span style="background-color: #ffa903; color: #fff;">src/routes/admin/pages.js</span></h6>
+    <pre><code>
+import React, { lazy } from 'react';
+import { Routes, Route } from 'react-router-dom';
+
++ const MyPage = lazy(() => import('../../container/pages/MyPage'));
+
+const PagesRoute = () => {
+
+    return (
+    &lt;Routes/&gt;
+        &lt;Route path="new-page" element={&lt;MyPage /&gt;} /&gt;
+
+    </code></pre>
+                                </div>
+
+
+<div class="highlight box mb-3">
+    <h6>3. Then update the menu item <span style="background-color: #ffa903; color: #fff;">src/layout/MenuItems.js</span></h6>
+    <pre><code>
+const items = [
+getItem(
+    &lt;NavLink onClick={toggleCollapsed} to={'/admin/new-page'}&gt;
+        New Page
+        &lt;/NavLink&gt;, 
+    'page-key', 
+    null
+)
+];  </code></pre>
+                                </div>
+
+
+                                <br>
+                    <br>
+
+                     <!-- Theme Configuration -->
+                     <div class="p-5" id="switcher" style="background-color: #002A5C;">
+                        <h3>Theme Configuration</h3>
+                        <p>For customizing theme go to <code>src/Pages/Shared/ThemeSwitcher.jsx</code> and customize the variables according to your necessity. Mrittik is based on react-bootstrap. For additional changes, here is the list of available variable for customization <a href="https://react-bootstrap.github.io/getting-started/introduction/">https://react-bootstrap.github.io/getting-started/introduction/</a>. <strong>Using theme variables in the app.</strong></p>
+
+                <h4>Change font</h4>
+                <p>Simplest way to change font is to go to google fonts, select fonts, click embed copy the link. Now go to <code>public/index.html</code> and paste the link in head tag. Please remove the links of any unused fonts from the head.</p>
+                <div class="highlight box mb-3">
+<pre><code>
+&lt;!DOCTYPE html>
+&lt;html dir="ltr" lang="en">
+&lt;head>
+&lt;meta charset="utf-8" />
+&lt;link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+&lt;meta name="viewport" content="width=device-width, initial-scale=1" />
+&lt;meta name="theme-color" content="#000000" />
+&lt;meta
+name="description"
+content="Web site created using create-react-app"
+/>
+&lt;meta http-equiv="X-UA-Compatible" content="chrome=1" />
+&lt;link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+&lt;link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" />
++ &lt;link
+  href="YOUR_FONT"
+  rel="stylesheet"
+/>
+
+</code></pre>
+                    </div>
+<br>
+                    <h3>Changing Light & Dark Mode</h3>
+                    <p>To change layout mode to dark, go to <code>build/index.html</code> and just set the <strong>bg-dark</strong> class to the <strong>body</strong> tag for <strong>darkMode</strong>. Else set <strong>bg-white</strong> to keep the white background</p>
+                    <div class="highlight box mb-3">
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+.
+.
+.
+&lt;/head&gt;
+<span style="background-color: #ffa903; color: #fff;">&lt;body class="bg-dark"&gt;</span>
+&lt;noscript&gt;You need to enable JavaScript to run this app.&lt;/noscript&gt;
+&lt;div id="root"&gt;&lt;/div&gt;
+.
+.
+.
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+        </div> 
+        <br>
+        <h3>Navbar & Mobile Navbar Layout</h3>
+        <p>To change the Navbar side to top, go to <code>src/Pages/Shared/Header.jsx</code> and just set the Header component. You can update your menu item from here For Navbar and <code>src/Pages/Shared/MobileResponsiveMenu.jsx</code> for Mobile Navbar</p>
+        <div class="highlight box mb-3">
+<pre><code>
+import $ from 'jquery';
+import React, { useContext, useEffect } from 'react';
+import MiniCart from '../../containers/MiniCart';
+import { CartContext } from '../../Layout/Main';
+import AsideInfo from './AsideInfo';
+import MobileResponsiveMenu from './MobileResponsiveMenu';
+
+const Header = () => {
+const [cart, setCart] = useContext(CartContext);
+
+useEffect(() => {
+    .
+    .
+    .
+}, []);
+
+return (
+    &lt;&gt;
+        &lt;header className="header"&gt;
+            &lt;div className="container"&gt;
+
+              //  Paste Your Code Here 
+            
+              &lt;/div&gt;
+        &lt;/header&gt;
+
+        &lt;MobileResponsiveMenu /&gt;
+        &lt;MiniCart id='offcanvasNavbar' /&gt;
+        &lt;AsideInfo /&gt;
+    &lt;/&gt;
+);
+};
+
+export default Header;
+</code></pre>
+            </div>
+<br>
+            <h3>Change Logo</h3>
+            <p>To change both dark and light logo, go to <code>src/Pages/Shared/Header.jsx</code> and change source of the logo image</p>
+            <div class="highlight box mb-3">
+<pre><code>
+return (
+    &lt;&gt;
+        &lt;header className="header"&gt;
+            &lt;div className="container"&gt;
+              &lt;div className="header_inner d-flex align-items-center justify-content-between"&gt;
+                &lt;div className="logo"&gt;
+                  &lt;a href='/' className="light_logo"&gt;&lt;img src="YOUR LIGHT LOGO" alt="logo" /&gt;&lt;/a&gt;
+                  &lt;a href='/' className="dark_logo"&gt;&lt;img src="YOUR DARK LOGO" alt="logo" /&gt;&lt;/a&gt;
+                &lt;/div&gt;
+              .
+              .
+              .
+              &lt;/div&gt;
+            
+              &lt;/div&gt;
+        &lt;/header&gt;
+    &lt;/&gt;
+</code></pre>
+                </div>
+                </div>
+
+                <br>
+                <br>
+                    
+                    <!-- Routing -->
+                    <div class="py-3" id="routing">
+                        <h2>Routing</h2>
+                        <p>Mrittik use react-router as base routing system. To add a new route in the template, you can follow the steps below.</p>
+                        <h4>Create new route</h4>
+                        <p>We place all our route in <code>src/Routes/Router.js</code> file.In this folder is the entry point of all pages, you can basically set your pages in this file.
+                        <br>
+                        <br>
+                        Refer below mentioned code to create a route:
+                     </p>
+                            <div class="highlight box mb-3">
+<pre><code>import { createBrowserRouter } from "react-router-dom";
+import { productsAndCartData } from "../components/forJSON/getCart&ProductsData";
+import ShopCategory from "../containers/ShopCategory";
+import Main from "../Layout/Main";
+import NewPage from "../Pages/NewPage";
+
+export const routes = createBrowserRouter([
+  {
+    path: "/",
+    loader: productsAndCartData,
+    element: &lt;Main/&gt;,
+    children: [
+        {
+            path: '/YOUR-PATH',
+            element: &lt;NewPage/&gt;,
+        }
+
+]);
+</code></pre>
+                            </div>
+                        </div>
+
+
+                        <!-- Font Using-->
+                        <div class="py-3" id="fonts">
+                            <h2>Google Fonts</h2>
+                            <p>Open <strong>style.css in any text editor from css</strong> folder. And see imported Google font link. 
+                            </p>
+                            <div class="highlight box mb-3">
+<pre><code>@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
+</code></pre>
+                                    
+                            </div>
+                            <p>We are using <strong>Google Font</strong> and other open source font. You can change here font link that you want. Then need to change font-family at that div / tag/ section class in style.css file.</p>
+                            <p>We are using <strong>ionicons</strong>. You can change here font link that you want. Then need to change font-family at that div / tag/ section class in style.css file.</p>
+                            <a class="bg-danger text-light px-2" href="https://fonts.google.com/">Google Font Link</a>
+                        </div>
+
+
+                        <!-- Icon Font Using-->
+                        <div class="py-3" id="icons">
+                            <h2>Icons</h2>
+                            <p>
+                                
+                                We have used <strong>IonIcons & Fontawesome</strong> icon sets, that you can change color and size using CSS.
+                                <br>
+                                If you need more information about these icon sets, please visit this sites:
+                                <br>
+                                <br>
+                                <a href="http://ionicons.com/">IonIcons</a>
+                                <a href="https://fontawesome.com/">FontAwesome/</a>
+                            </p>
+                            <p>These font css file in this directory: <strong>css\fonts\ionicons\css\ionicon.css</strong>, <strong>css\fonts\font-awesome\css\font-awesome.css</strong></p>
+                            <p class="bg-danger text-light px-2">Use icon class name from above css files.</p>
+                            <br>
+                            <p>
+                                HTML Markup:
+                            </p>
+                            
+                            <div class="highlight box mb-3">
+                                <pre><code><span>&lt;i class="fa fa-phone"&gt;&lt;i&gt;</span>
+<span>&lt;i class="icon-basket"&gt;&lt;i&gt;</span></code></pre>
+                            </div>
+                            <p>You can use another icon you like. Then keep fonts family. And keep icon font css in css folder like ionicon.css and font-awesome.css</p>
+                            <p>Then use font in HTML as per using method of that font.</p>
+                        </div>
+                        
+
+                        
+
+                        
+                        <!--Source & Credits-->
+                        <div class="py-3" id="credits">
+                            <h2>Source & Credits</h2>
+                            <p>
+                                Fonts:<br>
+                                <strong>Google Web Fonts</strong> - <a href="https://fonts.google.com/">Link</a><br>
+
+                                <br>
+
+                                Scripts:<br>
+                                <strong>jQuery </strong>- <a href="http://www.jquery.com/">Link</a><br>
+                                <strong>Bootstrap Framework</strong> - <a href="http://getbootstrap.com/">Link</a><br>
+                                <strong>Swiper Slider</strong> - <a href="https://swiperjs.com">Link</a><br>
+                            </p>
+                            <br>
+                            <h5>Thank you again for purchase our template!</h5>
+                        </div>
+                    </div> 
+            </div>
+            <div class="footer highlight box mb-3 text-center">
+                <h6>Builderrin - All rights reserved by <i><a href="https://themeforest.net/user/wpthemebooster/portfolio">wpthemebooster</a></i></h6>
+                <p class="mb-0">Created on: 11/12/2022</p>
+            </div>
+        </div>
+
+
+        <!-- JS Include -->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!---->        
+        <script>        
+            $(document).ready(function() {
+               $('.nav a').click(function (e) {
+                    var linkHref = $(this).attr("href");
+                    var idElement = linkHref.substr(linkHref.indexOf("#"));
+                    $('html, body').animate({
+                        scrollTop: $(idElement).offset().top
+                    }, 1000);
+                    return false;
+                });
+            });        
+        </script>
+        
+    </body>
+</html>
