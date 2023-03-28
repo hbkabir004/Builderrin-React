@@ -40,7 +40,7 @@ const Service02 = () => {
             img: 'images/services/s4.png',
             img02: 'images/services/Service_Hover_images/5.jpg',
             tag: 'HIGHRISE BUILDING',
-            title: 'Builderrine is proud to join other companies and organizations.'
+            title: 'Builderrine is the safe, reliable & cost effective construction company.'
         },
     ];
 
@@ -78,7 +78,7 @@ const Service02 = () => {
                                 },
                                 992: {
                                     width: 992,
-                                    slidesPerView: 2.2,
+                                    slidesPerView: 2,
                                 },
                             }}
                             loop={true}
