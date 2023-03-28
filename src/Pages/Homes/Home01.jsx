@@ -4,7 +4,7 @@ import Banner from '../../Containers/Banner';
 import Blog from '../../Containers/Blogs/Blog';
 import Experience from '../../Containers/Experiences/Experience';
 import FunFact01 from '../../Containers/Funfacts/FunFact01';
-import ProjectHome01 from '../../Containers/Projects/ProjectHome01';
+import ProjectHome01 from '../../Containers/ProjectContainers/ProjectHome01';
 import ServiceHome01 from '../../Containers/ServiceContainers/ServiceHome01';
 import Testimonial01 from '../../Containers/Testimonials/Testimonial01';
 import Slider from '../../Containers/ThemeSliders/Slider';

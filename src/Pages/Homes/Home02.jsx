@@ -4,7 +4,7 @@ import BlogHome02 from '../../Containers/Blogs/BlogHome02';
 import ContactHome02 from '../../Containers/Contacts/ContactHome02';
 import Experience02 from '../../Containers/Experiences/Experience02';
 import FunFact02 from '../../Containers/Funfacts/FunFact02';
-import ProjectHome02 from '../../Containers/Projects/ProjectHome02';
+import ProjectHome02 from '../../Containers/ProjectContainers/ProjectHome02';
 import Service02 from '../../Containers/ServiceContainers/Service02';
 import Team from '../../Containers/Team';
 import Testimonial02 from '../../Containers/Testimonials/Testimonial02';
