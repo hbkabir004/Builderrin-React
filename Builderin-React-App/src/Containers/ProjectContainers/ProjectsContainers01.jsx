@@ -149,7 +149,7 @@ const ProjectsContainers01 = () => {
 
                         </div>
 
-                        <PaginationDiv mt='60px' />
+                        <PaginationDiv />
                     </div>
                 </div>
             </div>

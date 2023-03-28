@@ -21,8 +21,7 @@ const Header02Nav = () => {
                 <button type="button" class="mr_menu_02_close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="ion-android-close"></i></button>
 
                 <div className="logo">
-                    <a href="/"><img src="images/logo.svg" alt="logo" /></a>
-                    <a href="/" className="dark_mode_logo"><img src="images/logo_foot.svg" alt="logo" /></a>
+                    <a href="/"><img src="images/logo2.png" alt="logo" /></a>
                 </div>
 
                 <div class="mr_navmenu">
@@ -38,7 +37,7 @@ const Header02Nav = () => {
                         <li class="menu-item menu-item-has-children">
                             <a href="/">Projects</a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="/project-1">Projects One</a></li>
+                                <li class="menu-item"><a href="/project">Projects One</a></li>
                                 <li class="menu-item"><a href="/project-2">Projects Two</a></li>
                                 <li class="menu-item"><a href="/project-details">Peoject Details</a></li>
                             </ul>

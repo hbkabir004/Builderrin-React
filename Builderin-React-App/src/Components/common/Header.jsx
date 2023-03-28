@@ -75,8 +75,8 @@ const Header = () => {
                                         </li>
                                         <li className="menu-item menu-item-has-children"><a href="#">Projects</a>
                                             <ul className="sub-menu">
-                                                <li className="menu-item"><a href="/projects-1">Projects One</a></li>
-                                                <li className="menu-item"><a href="/projects-2">Peojects Two</a></li>
+                                                <li className="menu-item"><a href="/project">Projects One</a></li>
+                                                <li className="menu-item"><a href="/project-2">Peojects Two</a></li>
                                                 <li className="menu-item"><a href="/project-details">Peojects Details</a></li>
                                             </ul>
                                         </li>

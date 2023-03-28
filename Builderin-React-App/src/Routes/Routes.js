@@ -43,11 +43,11 @@ export const routes = createBrowserRouter([
                 element: <Home01/>
             },
             {
-                path: '/projects-1',
+                path: '/project',
                 element: <Projects01/>
             },
             {
-                path: '/projects-2',
+                path: '/project-2',
                 element: <Projects02/>
             },
             {

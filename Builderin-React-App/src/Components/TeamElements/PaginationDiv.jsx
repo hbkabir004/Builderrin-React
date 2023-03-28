@@ -1,8 +1,8 @@
 import React from 'react';
 
-const PaginationDiv = (props) => {
+const PaginationDiv = () => {
     return (
-        <div style={{ marginTop: `${props.mt}` }} className="pagination-div">
+        <div className="pagination-div">
             <ul className="pagination">
                 <li><a href="#"><i className="ion-chevron-left"></i></a></li>
                 <li><a className="page-number current" href="#">1</a></li>
