@@ -1,5 +1,5 @@
 import React from 'react';
-import { Controller, Navigation, Pagination } from 'swiper';
+import { Autoplay, Controller, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ServiceCard02 from '../../Components/ServiceCards/ServiceCard02';
 // import './Service.css';
@@ -60,13 +60,13 @@ const Service02 = () => {
                 <div className="row">
                     <div className="col">
                         <Swiper
-                            // autoplay={{
-                            //     delay: 500,
-                            //     disableOnInteraction: false,
-                            //     speed: 5000
-                            // }}
                             className="owl_testimonial1 owl-carousel owl-theme"
-                            modules={[Navigation, Controller, Pagination]}
+                            modules={[Navigation, Controller, Pagination, Autoplay]}
+                            autoplay={{
+                                delay: 2000,
+                                disableOnInteraction: true,
+                                speed: 3000
+                            }}
                             breakpoints={{
                                 640: {
                                     width: 640,
@@ -89,6 +89,12 @@ const Service02 = () => {
                                 prevEl: '.owl-prev .disabled',
                                 nextEl: '.owl-next',
                             }}
+
+                            pagination={{
+                                el: '.testimonial-pagination',
+                                clickable: true,
+                                dynamicBullets: true,
+                            }}
                         >
                             {
                                 ServiceData02.map(data =>
@@ -102,6 +108,9 @@ const Service02 = () => {
                             }
 
                         </Swiper>
+
+                        {/* <!-- Add Pagination --> */}
+                        <div className="testimonial-pagination"></div>
 
                         {/* <!-- Add Buttons --> */}
                         {/* <div className="owl-nav">
