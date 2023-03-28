@@ -7,7 +7,7 @@ const ProjectCard02 = ({ data }) => {
     return (
         <div className={`element-item ${tag}`}>
             <div className="teambox">
-                <LazyLoad height={400} once>
+                <LazyLoad height={500} once>
                     <img src={img} alt="" />
                 </LazyLoad>
 
