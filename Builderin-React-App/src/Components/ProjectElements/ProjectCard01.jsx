@@ -2,9 +2,14 @@ import React, { useLayoutEffect, useRef, useState } from "react";
 import LazyLoad from 'react-lazyload';
 
 
-const ProjectCard01 = ({ data }, props) => {
+const ProjectCard01 = ({ data }) => {
     const targetRef = useRef();
     const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+    const windowSize = useRef([window.innerWidth, window.innerHeight]);
+    const monitorWidth = windowSize.current[0];
+
+    console.log(monitorWidth);
+
 
     useLayoutEffect(() => {
         if (targetRef.current) {
@@ -14,14 +19,17 @@ const ProjectCard01 = ({ data }, props) => {
             });
         }
     }, []);
+
     let elHeight = Number(dimensions.height);
     console.log(typeof elHeight);
+
     const { img, city, title, tag } = data;
+
     return (
 
         <div ref={targetRef} className={`element-item ${tag}`}>
             <div className="teambox">
-                <LazyLoad height={350} once>
+                <LazyLoad height={monitorWidth >= 1536 ? 350 : 460} once>
                     <img src={img} alt="" />
                 </LazyLoad>
 
@@ -42,6 +50,8 @@ const ProjectCard01 = ({ data }, props) => {
                             {/* <br />
                             <p>width: {dimensions.width}</p>
                             <p>height: {dimensions.height}</p> */}
+                            <h2>Width: {windowSize.current[0]}</h2>
+                            <h2>Height: {windowSize.current[1]}</h2>
                         </div>
                     </div>
                 </div>
