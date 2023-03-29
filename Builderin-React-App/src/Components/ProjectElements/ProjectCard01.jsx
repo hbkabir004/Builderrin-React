@@ -50,8 +50,8 @@ const ProjectCard01 = ({ data }) => {
                             {/* <br />
                             <p>width: {dimensions.width}</p>
                             <p>height: {dimensions.height}</p> */}
-                            <h2>Width: {windowSize.current[0]}</h2>
-                            <h2>Height: {windowSize.current[1]}</h2>
+                            {/* <h2>Width: {windowSize.current[0]}</h2>
+                            <h2>Height: {windowSize.current[1]}</h2> */}
                         </div>
                     </div>
                 </div>

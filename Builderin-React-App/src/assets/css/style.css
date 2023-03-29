@@ -10,16 +10,6 @@
 @import url("fonts/font-awesome/css/font-awesome.css");
 @import url("bootstrap.min.css");
 
-
-/*@import url("../plugins/owlcarousel/owl.theme.default.min.css");
-@import url("../plugins/menu/ma5-menu.css");
-@import url("../plugins/owlcarousel/owl.carousel.min.css");
-@import url("../plugins/slick/slick.css");
-@import url("../plugins/slick/slick-theme.css");
-@import url("../plugins/jquery_ui/style.css");
-@import url("../plugins/select2/css/select2.min.css");
-@import url("../plugins/aos/aos.css");
-@import url("../plugins/swiper/swiper-bundle.min.css"); */
 :root {
   --primary-color: #00326F;
   --second-color: #FFA903;
