@@ -4,16 +4,39 @@ import './MobileNav.css';
 
 const Header02Nav = () => {
     useEffect(() => {
-        // Sub-Menu Open On-Click
-        $(".mr_menu_02 #mr_navmenu").append($(".main_menu"));
-        $('.mr_menu_02 #mr_navmenu ul.main_menu li.menu-item-has-children').append($("<span class='submenu_opener d-lg-none'><i class='ion-arrow-right-b'></i></span>"));
-        $('.mr_menu_02 .main_menu li.menu-item-has-children .submenu_opener').on("click", function (e) {
-            $(this).parent().toggleClass('nav_open');
-            $(this).siblings('ul').slideToggle();
-            e.stopPropagation();
-            e.preventDefault();
-        });
+        var counter = 0;
+        tablet();
+        function tablet() {
+            function checkMedia(mql) {
+                if (mql.matches) {
+                    counter++;
+                    $(".mr_menu_02 .mr_navmenu").append($(".main_menu"));
+                    if (counter === 1) {
+                        menuClickAction();
+                    }
+                } else {
+                    $(".header .mainnav").append($(".main_menu"));
+                    if (counter === 1) {
+                        menuClickAction();
+                    }
+                }
+            }
+            const mql = window.matchMedia('screen and (max-width: 1199.90px)');
 
+            checkMedia(mql);
+            mql.addEventListener('change', checkMedia);
+        }
+
+        function menuClickAction() {
+            // Sub-Menu Open On-Click
+            $('.mr_menu_02 .mr_navmenu ul.main_menu li.menu-item-has-children').append($("<span class='submenu_opener d-xl-none'><i class='ion-arrow-right-b'></i></span>"));
+            $('.mr_menu_02 .main_menu li.menu-item-has-children .submenu_opener').on("click", function (e) {
+                $(this).parent().toggleClass('nav_open');
+                $(this).siblings('ul').slideToggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        }
 
     }, []);
 
@@ -27,7 +50,9 @@ const Header02Nav = () => {
                     <a href="/"><img src="images/logo2.png" alt="logo" /></a>
                 </div>
 
-                <div id="mr_navmenu"></div>
+                <div class="mr_navmenu">
+
+                </div>
             </div>
         </div>
     );

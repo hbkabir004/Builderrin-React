@@ -10659,7 +10659,7 @@ video {
 }
 
 /*-- max-width: 1199px--*/
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.90px) {
   .header .top_bar_inner .header_info {
     margin-left: 0;
   }

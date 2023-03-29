@@ -122,7 +122,7 @@ const Header = () => {
                                     </form>
                                 </div>
 
-                                <button className="ma5menu__toggle position-relative d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHome" aria-controls="offcanvasHome"
+                                <button className="ma5menu__toggle position-relative d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHome" aria-controls="offcanvasHome"
                                 >
                                     <i className="ion-android-menu"></i>
                                 </button>
