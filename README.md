@@ -2,7 +2,7 @@
 
 ## 🔗 Links
 
-### Hosted in Firebase -> [Live Site (Beta)](https://test-builderin.web.app/)
+### Hosted in Firebase -> [Live Site](https://builderin-react.firebaseapp.com/)
 
 ### Project Documentation
 
