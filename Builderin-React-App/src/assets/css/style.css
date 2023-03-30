@@ -9875,11 +9875,6 @@ video {
   color: var(--body-color);
 }
 
-.dark-theme #mode_switcher span {
-  background-color: var(--second-color);
-  color: var(--white-color);
-}
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
@@ -10521,6 +10516,21 @@ video {
   z-index: 9999;
 }
 
+.dark-theme #mode_switcher span {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+  font-size: 50px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotateSwitcher 5s infinite linear;
+}
+
 #mode_switcher span {
   width: 50px;
   height: 50px;
@@ -10528,7 +10538,7 @@ video {
   overflow: hidden;
   border: 2px solid #ffffff;
   font-size: 50px;
-  background-color: var(--second-color);
+  background-color: black;
   color: var(--white-color);
   display: flex;
   align-items: center;
