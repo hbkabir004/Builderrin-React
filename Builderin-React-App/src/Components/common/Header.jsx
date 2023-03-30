@@ -1,5 +1,4 @@
-import React from 'react';
-// import '../../assets/plugins/menu/ma5-menu.css';
+import React, { useState } from 'react';
 import MobileNav from './MobileNav/MobileNav';
 
 const Header = () => {
@@ -13,6 +12,11 @@ const Header = () => {
             document.querySelector('header .top_bar').classList.remove('top-up');
         }
     }
+
+    const [isActive, setActive] = useState("false");
+    const handleToggle = () => {
+        setActive(!isActive);
+    };
 
     return (
         <>
@@ -112,17 +116,17 @@ const Header = () => {
                                     <i className="fa fa-phone" aria-hidden="true"></i>
                                     <div><span>Call Us Anytime</span><br /><span className="phn_number">(+123)987.654.32</span></div>
                                 </div>
-                                <div className="header_search">
+                                <div className='header_search' onClick={handleToggle}>
                                     <button type="submit" className="form-control-submit"><i className="ion-ios-search"></i></button>
                                 </div>
-                                <div className="open_search">
+                                <div id='open_search' className={isActive ? null : "active"}>
                                     <form className="search_form" action="search.php">
                                         <input type="text" name="search" className="keyword form-control" placeholder="Search..." />
                                         <button type="submit" className="form-control-submit"><i className="ion-ios-search"></i></button>
                                     </form>
                                 </div>
 
-                                <button className="ma5menu__toggle position-relative d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHome" aria-controls="offcanvasHome"
+                                <button className="ma5menu__toggle position-relative d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasHome" aria-controls="offcanvasHome"
                                 >
                                     <i className="ion-android-menu"></i>
                                 </button>
