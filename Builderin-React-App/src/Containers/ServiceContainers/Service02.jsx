@@ -90,11 +90,11 @@ const Service02 = () => {
                                 nextEl: '.owl-next',
                             }}
 
-                            pagination={{
-                                el: '.testimonial-pagination',
-                                clickable: true,
-                                dynamicBullets: true,
-                            }}
+                        // pagination={{
+                        //     el: '.owl-dots',
+                        //     clickable: true,
+                        //     dynamicBullets: true,
+                        // }}
                         >
                             {
                                 ServiceData02.map(data =>
