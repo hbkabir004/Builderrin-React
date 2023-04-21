@@ -31,7 +31,7 @@ import ShopCheckout from '../Pages/Shops/ShopCheckout';
 
 // Shared Layouts
 import BlogDetails from '../Pages/Blogs/BlogDetails';
-import ErrorPage from '../Pages/Shared/ErrorPage';
+import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 
 export const routes = createBrowserRouter([
     {

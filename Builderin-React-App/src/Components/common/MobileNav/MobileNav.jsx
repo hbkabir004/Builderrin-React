@@ -41,7 +41,7 @@ const Header02Nav = () => {
     }, []);
 
     return (
-        <div className="dark-theme offcanvas offcanvas-start_02" tabIndex="-1" id='offcanvasHome' aria-labelledby="offcanvasNavbarLabel">
+        <div className="dark-theme offcanvas offcanvas-start" tabIndex="-1" id='offcanvasHome' aria-labelledby="offcanvasNavbarLabel">
             <div class="mr_menu_02">
                 <div class="mr_menu_02_overlay"></div>
                 <button type="button" class="mr_menu_02_close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="ion-android-close"></i></button>
