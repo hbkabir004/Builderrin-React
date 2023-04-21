@@ -10107,7 +10107,6 @@ video {
 .page_header .page_header_content {
   position: relative;
   background-image: url("../../../build/images/header_bg.png");
-  /* background-image: url("../../../build/images/header_bg.png"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
