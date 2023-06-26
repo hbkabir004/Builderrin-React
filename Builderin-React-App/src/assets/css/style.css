@@ -10523,8 +10523,8 @@ video {
   overflow: hidden;
   border: 2px solid #ffffff;
   font-size: 50px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10538,8 +10538,8 @@ video {
   overflow: hidden;
   border: 2px solid #ffffff;
   font-size: 50px;
-  background-color: black;
-  color: var(--white-color);
+  background-color: white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;

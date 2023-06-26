@@ -12,10 +12,10 @@ const ThemeSwitcher = () => {
         icon.onclick = function () {
             document.body.classList.toggle("dark-theme");
             if (document.body.classList.contains("dark-theme")) {
-                icon.innerHTML = '<span><i class="ion-ios-sunny"></i></span>';
+                icon.innerHTML = '<span><i class="ion-ios-moon"></i></span>';
                 localStorage.setItem("theme", "dark");
             } else {
-                icon.innerHTML = '<span><i class="ion-ios-moon"></i></span>';
+                icon.innerHTML = '<span><i class="ion-ios-sunny"></i></span>';
                 localStorage.setItem("theme", "light");
             }
         }
@@ -34,7 +34,7 @@ const ThemeSwitcher = () => {
     }, []);
     return (
         <div id="mode_switcher">
-            <span><i className="ion-ios-sunny"></i></span>
+            <span><i className="ion-ios-moon"></i></span>
         </div>
     );
 };
