@@ -777,7 +777,7 @@ textarea.form-control:focus {
 }
 
 .bglayer_1 {
-  background-image: url("../images/about/abt.png");
+  background-image: url("../../../public/images/about/abt.png");
   padding-bottom: 87px;
   background-position: right;
   background-repeat: no-repeat;
@@ -801,7 +801,7 @@ textarea.form-control:focus {
 .another_bg_image::after {
   position: absolute;
   content: "";
-  background: url("../images/about/abt.png");
+  background: url("../../../public/images/about/abt.png");
   width: 789px;
   top: 0;
   height: 100%;
@@ -814,7 +814,7 @@ textarea.form-control:focus {
 
 .upper_sm_img::before {
   position: absolute;
-  content: url("../images/about/s1.png");
+  content: url("../../../public/images/about/s1.png");
   top: -39px;
   z-index: 9;
 }
@@ -2069,7 +2069,7 @@ textarea.form-control:focus {
 }
 
 .testibox1 .testibox_inner:before {
-  content: url("../images/border_radius_shape.png");
+  content: url("../../../public/images/border_radius_shape.png");
   position: absolute;
   bottom: -26px;
   right: -8px;
@@ -2077,7 +2077,7 @@ textarea.form-control:focus {
 }
 
 .testibox1:before {
-  content: url("../images/quote.png");
+  content: url("../../../public/images/quote.png");
   position: absolute;
   top: 30px;
   right: 50px;
@@ -2086,7 +2086,7 @@ textarea.form-control:focus {
 }
 
 .testibox1:after {
-  content: url("../images/quote2.png");
+  content: url("../../../public/images/quote2.png");
   position: absolute;
   top: 30px;
   right: 50px;
@@ -2321,7 +2321,7 @@ textarea.form-control:focus {
 .testimonial2 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../images/others/bg.png");
+  background-image: url("../../../public/images/others/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2658,7 +2658,7 @@ blockquote p, blockquote .blockquote_inner {
 }
 
 blockquote:before {
-  content: url(../images/quote2.png);
+  content: url(../../../public/images/quote2.png);
   position: absolute;
   left: 130px;
   bottom: 50px;
@@ -3424,7 +3424,7 @@ video {
 }
 
 .footer .footer_above {
-  background: url("../images/footer_bg.png");
+  background: url("../../../public/images/footer_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4044,7 +4044,7 @@ video {
 /*---------- Funfacts ------------*/
 .funfacts {
   padding-top: 100px;
-  background-image: url(../images/funfact/bg3.png);
+  background-image: url(../../../public/images/funfact/bg3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4069,7 +4069,7 @@ video {
 .funfacts::after {
   position: absolute;
   content: "";
-  background: url(../images/funfact/fun_frame.png);
+  background: url(../../../public/images/funfact/fun_frame.png);
   width: 100%;
   height: 100%;
   bottom: 0;
@@ -4152,7 +4152,7 @@ video {
 }
 
 .funfacts2_bg {
-  background-image: url(../images/funfact/bg4.png);
+  background-image: url(../../../public/images/funfact/bg4.png);
   background-repeat: no-repeat;
   position: relative;
   margin-bottom: -100px;
@@ -4167,7 +4167,7 @@ video {
 }
 
 .funfacts3_bg_img {
-  background-image: url(../images/funfact/bg1.png);
+  background-image: url(../../../public/images/funfact/bg1.png);
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -4240,7 +4240,7 @@ video {
 
 .theme_slider_1 .slider {
   position: relative;
-  background-image: url("../images/slider/bg4.jpg");
+  background-image: url("../../../public/images/slider/bg4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4345,11 +4345,11 @@ video {
 }
 
 .theme_slider_2 .swiper-slide:nth-child(1) .slider {
-  background-image: url("../images/slider/bg1.jpg");
+  background-image: url("../../../public/images/slider/bg1.jpg");
 }
 
 .theme_slider_2 .swiper-slide:nth-child(2) .slider {
-  background-image: url("../images/slider/bg2.jpg");
+  background-image: url("../../../public/images/slider/bg2.jpg");
 }
 
 .theme_slider_2 .floating_object {
@@ -5653,7 +5653,7 @@ video {
 }
 
 .contact {
-  background: url("../images/bg_con.png");
+  background: url("../../../public/images/bg_con.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6001,7 +6001,7 @@ video {
   position: absolute;
   content: "";
   top: 0;
-  background: url(../images/c1.png);
+  background: url(../../../public/images/c1.png);
   width: 30%;
   height: 100%;
   background-repeat: no-repeat;
@@ -9097,7 +9097,7 @@ video {
 }
 
 .dark-theme .theme_slider_1 .slider {
-  background-image: url("../images/slider/bg4.jpg");
+  background-image: url("../../../public/images/slider/bg4.jpg");
 }
 
 .dark-theme .theme_slider_1 .slider::before {
@@ -9105,11 +9105,11 @@ video {
 }
 
 .dark-theme .theme_slider_2 .swiper-slide:nth-child(1) .slider {
-  background-image: url("../images/slider/bg3.jpg");
+  background-image: url("../../../public/images/slider/bg3.jpg");
 }
 
 .dark-theme .theme_slider_2 .swiper-slide:nth-child(2) .slider {
-  background-image: url("../images/slider/bg1.jpg");
+  background-image: url("../../../public/images/slider/bg1.jpg");
 }
 
 .dark-theme .bg_1 {
@@ -9306,7 +9306,7 @@ video {
 }
 
 .dark-theme .funfacts2_bg {
-  background-image: url(../images/funfact/bg5.png);
+  background-image: url(../../../public/images/funfact/bg5.png);
   background-color: var(--heading-color);
   box-shadow: 0px 10px 25px rgba(10, 33, 72, 0.3);
 }
@@ -10059,7 +10059,7 @@ video {
 
 .page_header::before {
   position: absolute;
-  content: url("../images/about/s1.png");
+  content: url("../../../public/images/about/s1.png");
   z-index: 99;
   left: 0;
   top: 48px;
@@ -10069,7 +10069,7 @@ video {
 .page_header::after {
   position: absolute;
   content: "";
-  background: url("../images/about/s2.png");
+  background: url("../../../public/images/about/s2.png");
   z-index: 99;
   right: 0;
   bottom: 0;
@@ -10106,7 +10106,7 @@ video {
 
 .page_header .page_header_content {
   position: relative;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../../../public/images/header_bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

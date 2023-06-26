@@ -8,7 +8,7 @@ const ProjectCard01 = ({ data }) => {
     const windowSize = useRef([window.innerWidth, window.innerHeight]);
     const monitorWidth = windowSize.current[0];
 
-    console.log(monitorWidth);
+    // console.log(monitorWidth);
 
 
     useLayoutEffect(() => {
@@ -21,7 +21,7 @@ const ProjectCard01 = ({ data }) => {
     }, []);
 
     let elHeight = Number(dimensions.height);
-    console.log(typeof elHeight);
+    // console.log(typeof elHeight);
 
     const { img, city, title, tag } = data;
 
