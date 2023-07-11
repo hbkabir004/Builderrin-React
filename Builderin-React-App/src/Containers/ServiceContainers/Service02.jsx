@@ -40,7 +40,7 @@ const Service02 = () => {
             img: 'images/services/s4.png',
             img02: 'images/services/Service_Hover_images/5.jpg',
             tag: 'HIGHRISE BUILDING',
-            title: 'Builderrine is the safe, reliable & cost effective construction company.'
+            title: 'Builderrine is proud to join other companies and organizations.'
         },
     ];
 
@@ -62,28 +62,45 @@ const Service02 = () => {
                         <Swiper
                             className="owl_testimonial1 owl-carousel owl-theme"
                             modules={[Navigation, Controller, Pagination, Autoplay]}
-                            autoplay={{
-                                delay: 2000,
-                                disableOnInteraction: true,
-                                speed: 3000
-                            }}
+                            // autoplay={{
+                            //     delay: 2000,
+                            //     disableOnInteraction: true,
+                            //     speed: 3000
+                            // }}
+                            loop={true}
+                            controller={{ inverse: true }}
+                            spaceBetween={45}
                             breakpoints={{
+                                // 0: {
+                                //     width: 380,
+                                //     slidesPerView: 1,
+                                // },
                                 640: {
-                                    width: 640,
+                                    // width: 640,
                                     slidesPerView: 1,
                                 },
                                 768: {
-                                    width: 768,
+                                    // width: 768,
                                     slidesPerView: 2,
                                 },
                                 992: {
-                                    width: 992,
-                                    slidesPerView: 2,
+                                    // width: 992,
+                                    slidesPerView: 3,
                                 },
+
+                                // 600: {
+                                //     width: 600,
+                                //     slidesPerView: 1,
+                                // },
+                                // 1000: {
+                                //     width: 1000,
+                                //     slidesPerView: 2,
+                                // },
+                                // 1200: {
+                                //     width: 1200,
+                                //     slidesPerView: 3,
+                                // },
                             }}
-                            loop={true}
-                            controller={{ inverse: true }}
-                            spaceBetween={5}
 
                             navigation={{
                                 prevEl: '.owl-prev .disabled',

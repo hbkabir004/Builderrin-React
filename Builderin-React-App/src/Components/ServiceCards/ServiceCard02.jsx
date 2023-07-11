@@ -3,7 +3,7 @@ import React from 'react';
 const ServiceCard02 = ({ data }) => {
     const { img, img02, tag, title } = data;
     return (
-        <div className="item">
+        <div className="item me-2 me-md-0">
             <div className="service_inner_block">
                 <img src={img02} alt="" />
                 <div className="icon_img">
