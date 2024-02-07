@@ -2,7 +2,7 @@
 
 ## 🔗 Links
 
-### Hosted in Firebase -> [Live Site](https://builderin-react.firebaseapp.com/)
+### [Available on Themeforest](https://themeforest.net/item/builderrin-construction-react-template/46492308?s_rank=16)
 
 ### Project Documentation
 
